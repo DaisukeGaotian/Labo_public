@@ -1,0 +1,12 @@
+# [R/RStudio]
+.Rhistory
+.RData
+.Rproj.user/
+*.html
+
+# [OS]
+.DS_Store
+
+# [Project Specific]
+_private/
+INTERNAL_RULES.md
