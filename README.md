@@ -1,18 +1,13 @@
-# Labo_public
+# About Laboratory
 
-> 🔗 研究室紹介: [daisukegaotian.github.io/labo_settings/#lab](https://daisukegaotian.github.io/labo_settings/#lab)  
-> 🔗 ゼミ成果公表版: [daisukegaotian.github.io/2026_Labo_semi/](https://daisukegaotian.github.io/2026_Labo_semi/)
+[同志社女子](https://www.dwc.doshisha.ac.jp)大学 [生活科学部 食物](https://www.dwc.doshisha.ac.jp/faculty_dep_info/life/nutrition_science)栄養科学科 [臨床病態学研究室](https://daisukegaotian.github.io/labo_settings/#lab)のGithub（基本的にオープンなリポジトリ）です。
 
 このリポジトリは、研究室のゼミ運営・学習資料を外部に公開するためのものです。
-学生向けの配布資料から、外部の方が「何を勉強しているか」を把握できる資料まで、幅広く管理します。
-
-> **なぜ紹介サイトとゼミ成果サイトが2つあるのか？**  
-> 研究室の基本情報（研究内容・概要）と、ゼミの成果公表を別サイトで管理しています。
-> 何らかの理由でゼミ成果を速やかに非公開にする必要が生じた場合に、研究室紹介サイトに影響を与えずに対応できるようにするためです。
+「学生向けの配布資料」から、外部の方が「何をどのように勉強しているか」を把握できる資料まで、オープンできる範囲内で幅広く管理します。
 
 ---
 
-## 📚 ゼミ室での教育方針
+## 📚 ゼミ室での教育方針とPlan
 
 学術的な内容のみならず、**法的な制約や倫理的な観点**を学び、積極的に最新の技術を使いながら、これからの時代を牽引する人材を育成することを目指します。
 
@@ -32,6 +27,31 @@
 人間が行うこととAIに任せることを適切に分類し、AIエージェントへの指示・監視・修正の技術を実践的に習得します。
 
 > 💡 **Tip**: **human-in-the-loop** の枠組みで、AIに任せるのではなく人間が監視・微修正する技術の習得を目指します。
+
+---
+
+## 🚀 教室内で使用するツールなど(予定)
+
+下記のものはダウンロードして、環境を整えておいてください。
+
+- `Slack`: 研究室内のコミュニケーションツール。質問や雑談など、気軽に使ってください。
+
+- `R/Rstudio`: 各学生のPC内での作業環境。データ分析やコードを書くためのソフトウェアです。
+
+- `Git/Github`: 研究室内共有の作業ノート。ゼミで勉強した内容やコードを保存[^1]する場所です。
+
+[^1]:いずれ説明しますが、アップしていいものとダメなものがあります。Github Educationの特典を受けているので、Github Copilot Chatなども併用していく予定です
+
+- `shinyapps.io`: Rで作ったアプリを公開するためのサービス。研究室内で作成したアプリを外部に公開する際に使用します。
+
+将来的には、`Cursor`や`Antigravity`, `Claude Code`等のAIエージェントも積極的に活用していく予定です。
+
+---
+
+## 🔒 各年度プライベートリポジトリとの使い分けについて
+
+`Labo_2026students`はprivateリポジトリで、ゼミ生の個人情報や非公開の資料を管理するためのものです。
+いきなり外部に公表するのに抵抗がある学生は、まずは`Labo_2026students`で`push`、`pull`、`プルリクエスト`などの学習を進め、内容が安定してきた段階で`Labo_public`に公表してください。
 
 ---
 
@@ -56,20 +76,4 @@ Labo_public/
     └── README.md
 ```
 
-> **Note**: `_private/` フォルダ（`.gitignore` で除外）はローカルにのみ存在し、非公開のドキュメント・チェックスクリプト等を管理しています。
-
----
-
-## 🚀 利用方法
-
-```bash
-# リポジトリをクローン
-git clone https://github.com/daisukegaotian/Labo_public.git
-
-# 必要なRパッケージをインストール（例）
-install.packages(c("rmarkdown", "tidyverse", "ggplot2"))
-```
-
-R Markdown ファイルの実行は RStudio または Positron で `.Rmd` ファイルを開き、**Knit** を実行してください。
-
-# Labo_public
+> **Note**: `_private/` フォルダ（`.gitignore` で除外）は各学生のPC(ローカル環境)にのみ存在し、非公開のドキュメント・チェックスクリプト等を管理しています。
