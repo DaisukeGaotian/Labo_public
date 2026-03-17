@@ -1,9 +1,12 @@
 # About Laboratory
 
-[同志社女子](https://www.dwc.doshisha.ac.jp)大学 [生活科学部 食物](https://www.dwc.doshisha.ac.jp/faculty_dep_info/life/nutrition_science)栄養科学科 [臨床病態学研究室](https://daisukegaotian.github.io/labo_settings)のGithub（基本的にオープンなリポジトリ）です。
+[同志社女子](https://www.dwc.doshisha.ac.jp)大学 [生活科学部 食物栄養科学](https://www.dwc.doshisha.ac.jp/faculty_dep_info/life/nutrition_science)科 [臨床病態学研究室](https://daisukegaotian.github.io/labo_settings)のGithub（基本的にオープンなリポジトリ）です。
 
-このリポジトリは、研究室のゼミ運営・学習資料を外部に公開するためのものです。
-「学生向けの配布資料」から、外部の方が「何をどのように勉強しているか」を把握できる資料まで、オープンできる範囲内で幅広く管理します。
+2026年に関しては、materials/[のディレクトリ以下](https://github.com/DaisukeGaotian/Labo_public/tree/main/materials/2026)に、ゼミで使用する資料を管理しています。
+
+> [!NOTE]
+> このリポジトリは、研究室のゼミ運営・学習資料を外部に公開するためのものです。
+> 「学生向けの配布資料」から、外部の方が「何をどのように勉強しているか」を把握できる資料まで、オープンできる範囲内で幅広く管理します。
 
 ---
 
@@ -53,8 +56,10 @@
 
 ## 🔒 各年度プライベートリポジトリとの使い分けについて
 
-`Labo_2026students`はprivateリポジトリで、ゼミ生の個人情報や非公開の資料を管理するためのものです。
-いきなり外部に公表するのに抵抗がある学生は、まずは`Labo_2026students`で`commit`、`push`、`pull`などの学習を進め、内容が安定してきた段階で`Labo_public`に公表してください。
+> [!IMPORTANT]
+> このリポジトリとは違い、`Labo_2026students`はprivateリポジトリで、ゼミ生の個人情報や非公開の資料を管理するためのものです。
+
+いきなり外部に公表するのに抵抗がある学生と思うので、まずは`Labo_2026students`で`commit`、`push`、`pull`などの学習を進め、内容が安定してきた段階で`Labo_public`に公表してください。
 
 ---
 
@@ -66,17 +71,17 @@ Labo_public/
 ├── .gitignore
 │
 ├── docs/                         # ゼミ運営の中心となる公開文書（安定）
-│   ├── curriculum.md             # カリキュラム方針・学習ロードマップ
-│   └── tools.md                  # 使用ツール一覧と導入ガイド
+│   ├── curriculum.md             # カリキュラム方針・学習ロードマップ(予定)
+│   └── tools.md                  # 使用ツール一覧と導入ガイド(予定)
 │
-├── materials/                    # 学年・年度ごとの配布資料（毎年更新）
-│   ├── _2025/
+├── materials/                    # 学年・年度ごとの配布資料（毎年更新予定）
+│   ├── README.md
 │   └── 2026/
 │
 ├── templates/                    # Rmd/Quarto テンプレート（再利用可能）
 │
 └── data/                         # 公開可能なサンプルデータ
-    └── README.md
-```
 
-> **Note**: `_private/` フォルダ（`.gitignore` で除外）は各学生のPC(ローカル環境)にのみ存在し、非公開のドキュメント・チェックスクリプト等を管理しています。
+```
+> [!NOTE]
+> `_private/` フォルダ（`.gitignore` で除外）は各学生のPC(ローカル環境)にのみ存在し、非公開のドキュメント・チェックスクリプト等を管理しています。
