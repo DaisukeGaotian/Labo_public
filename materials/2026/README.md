@@ -7,6 +7,8 @@
 | 資料名 | 内容 | 状況 |
 |--------|------|------|
 |No.1 [単純計算とMarkdownの練習.Rmd](./calculation_and_markdown.Rmd) | Rの基礎計算とMarkdownの基本操作 | 公開中 |
+|No.2 [標準解析課題(４年前期)](./primary_20hits_.md) | RとRStudioを用いたデータ解析の基礎課題 | 公開中 |
+
 
 ## 運用の注意(for AI argents)
 - 新しい資料を追加した際は、このREADMEの表にも追記してください。
