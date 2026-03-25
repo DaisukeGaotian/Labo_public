@@ -1,4 +1,8 @@
-# About Laboratory
+<p align="center">
+  <img src="readme.webp" width="200" alt="Logo">
+</p>
+
+<h1 align="center"> Takada Laboratory </h1>
 
 [同志社女子](https://www.dwc.doshisha.ac.jp)大学 [生活科学部 食物栄養科学](https://www.dwc.doshisha.ac.jp/faculty_dep_info/life/nutrition_science)科 [臨床病態学研究室](https://daisukegaotian.github.io/labo_settings)のGithub（基本的にオープンなリポジトリ）です。
 
