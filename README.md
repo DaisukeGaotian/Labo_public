@@ -16,7 +16,9 @@
 
 [同志社女子](https://www.dwc.doshisha.ac.jp)大学 [生活科学部 食物栄養科学](https://www.dwc.doshisha.ac.jp/faculty_dep_info/life/nutrition_science)科 [臨床病態学研究室](https://daisukegaotian.github.io/labo_settings)のGithub（基本的にオープンなリポジトリ）です。
 
-2026年に関しては、materials/[のディレクトリ以下](https://github.com/DaisukeGaotian/Labo_public/tree/main/materials/2026)に、ゼミで使用する資料を管理しています。
+- 一般学生向けの資料は、[外部向け](https://daisukegaotian.github.io/2026_Labo_semi/education.html)等に公開しています。
+
+- ゼミ課題に関しては、materials/[のディレクトリ以下](https://github.com/DaisukeGaotian/Labo_public/tree/main/materials/2026)で資料を管理しています。
 
 > [!NOTE]
 > このリポジトリは、研究室のゼミ運営・学習資料・成果物を外部に公開するためのものです。
@@ -81,9 +83,14 @@
 ## 🔒 各年度プライベートリポジトリとの使い分けについて
 
 > [!IMPORTANT]
-> このリポジトリとは違い、`Labo_2026students`はprivateリポジトリで、ゼミ生の成果物や非公開の資料を指導しながら管理するためのものです。
+> このリポジトリとは違い、`Labo_2026students**`はprivateリポジトリで、ゼミ生の成果物や非公開の資料を指導しながら管理するためのものです。
 
 いきなり外部に公表するのに抵抗があると思うので、まずは`Labo_2026students`で`commit`、`push`、`pull`などの経験を積み、内容が安定してきた段階で`Labo_public`に公表する運用を考えています。
+
+> [!CAUTION]
+> 絶対にやってはいけないこと：
+> HTMLファイル内や、Publicリポジトリ内のコードに、サーバーのパスワードやAPIキーを直接書き込むことは避けてください。
+> これらは公開された瞬間に悪用されるリスクがあります。
 
 ---
 
