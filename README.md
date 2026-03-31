@@ -14,11 +14,11 @@
   <img src="https://img.shields.io/badge/Language-R-276DC3?style=flat-square&logo=r&logoColor=white" alt="R">
 </p>
 
-[同志社女子](https://www.dwc.doshisha.ac.jp)大学 [生活科学部 食物栄養科学](https://www.dwc.doshisha.ac.jp/faculty_dep_info/life/nutrition_science)科 [臨床病態学研究室](https://daisukegaotian.github.io/labo_settings)のGithub（基本的にオープンなリポジトリ）です。
+同志社女子大学 生活科学部 食物栄養科学科 [臨床病態学研究室](https://daisukegaotian.github.io/labo_settings)のGithub（基本的にオープンなリポジトリ）です。
 
-- 一般学生向けの資料は、[外部向け](https://daisukegaotian.github.io/2026_Labo_semi/education.html)等に公開しています。
+- 各学生向けの教育用資料は、[Education](https://daisukegaotian.github.io/2026_Labo_semi/education.html)等に公開しています。
 
-- ゼミ課題に関しては、materials/[のディレクトリ以下](https://github.com/DaisukeGaotian/Labo_public/tree/main/materials/2026)で資料を管理しています。
+- ゼミ課題に関しては、materials/[のディレクトリ以下](https://github.com/DaisukeGaotian/Labo_public/tree/main/materials/2026)や<kbd>年度別privateリポジトリ</kbd>で資料を管理しています。
 
 > [!NOTE]
 > このリポジトリは、研究室のゼミ運営・学習資料・成果物を外部に公開するためのものです。
@@ -26,25 +26,29 @@
 
 ---
 
-## 📚 ゼミ室での教育方針とPlan
+# 📚 データサイエンス教育の実践指針とカリキュラム・ロードマップ
 
-健康医療分野データサイエンス等の学術的な内容のみならず、**情報セキュリティに関する考え方、機密情報の扱い、法的な制約や倫理的な観点**を学び、積極的に最新の技術を使いながら、どこへ行ってもこれからの時代を牽引する人材を育成することを目指します。
+健康医療分野データサイエンス等の学術的な内容[^1]のみならず、**情報セキュリティに関する考え方、機密情報の扱い、法的な制約や倫理的な観点**を学び、積極的に最新の技術を使いながら、どこへ行ってもこれからの時代を牽引する人材を育成することを目指します。
 
-### 4年生 前半：RStudio
+[^1]:疫学や統計学は、３年生の実習に加えて、４年生前半・大学院前半で半年かけて進めます。教室責任者は[Modern Epidemiology 4th:現代疫学](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.gakujutsu.co.jp/product/978-4-7806-1245-5/&ved=2ahUKEwic19n79ciTAxW3r1YBHZi2BJYQFnoECBsQAQ&usg=AOvVaw2W73smreTGLAW_v7MDsuvm)の分担執筆を行っており、因果推論や疫学に関して体系的な教育を行っています。
+
+## 4年生 前半：RStudio
 コマンドラインによる基礎的な文法を学び、データ分析の基礎・可視化・アプリケーション開発の基礎など、**社会人・データサイエンティストとしての基本スキル**を身につけます。  
 また、Markdown形式（R Markdown / Quarto）を用いてコードの説明や分析結果の解釈を文書化する方法も実践的に学びます。
 
 > [!TIP]
 > コマンドラインの操作経験があるかどうかで、AI時代を生き抜くスキルの幅が大きく変わります。将来的には、AIエージェントとのコミュニケーションがよりスムーズになり、効率的にタスクをこなすことができるようになります。
 
-### 4年生 後半：RStudio / Positron（＋GitHub Copilot Chat）
-前半で身につけた基礎をもとに、オープン情報・機密情報に関するデータ分析の応用や、研究論文の内容を理解して実装する力を養い、**卒論発表**に臨みます。
+## 4年生 後半：RStudio / Positron等（＋GitHub Copilot Chat）
+前半で身につけた基礎をもとに、オープン情報・機密情報に関するデータ分析の応用や、研究論文の内容を理解して実装する[^2]力を養い、**卒論発表**に臨みます。
+
+[^2]:Scientific writing (論文の書き方)に関しても、継続的に指導を行います。
 
 > [!TIP]
 > 基礎を身につけること（調べればわかる知識や考え方）と、目的をもってソフトウェアを使うこと（実践）の間を埋める段階です。
 
-### 大学院：RStudio に加えて AI エージェント等
-課題に対して自分の力で**大きな枠組みを設計**し、細かい部分をAIエージェントに委任するスタイルを目指します。  
+## 大学院：適切にAI エージェントと分担するためのIDE環境の構築
+様々な課題に対して自分の力で**大きな枠組みを設計**し、細かい部分をAIエージェントに委任するスタイルを目指します。  
 人間が行うこととAIに任せることを適切に分類し、AIエージェントへの指示・監視・修正の技術を実践的に習得します。
 
 > [!TIP]
@@ -52,11 +56,11 @@
 
 ---
 
-## 🚀 教室内で使用するツールなど(予定)
+# 🚀 教室内で使用するツールなど(予定)
 
-下記のもの[^1]はダウンロードして、環境を整えておいてください。
+下記のもの[^3]はダウンロードして、環境を整えておいてください。
 
-[^1]:将来的には、`Cursor`や`Antigravity`, `Claude Code`等のAIエージェントも積極的に活用していく予定です。
+[^3]:将来的には、`Cursor`や`Antigravity`, `Claude Code`等のAIエージェントも積極的に活用していく予定です。
 
 - `Slack`: 研究室内のコミュニケーションツール。質問や雑談など、気軽に使ってください。
 
@@ -64,37 +68,38 @@
 
 下記は慣れてきたら、積極的に活用を検討していきます。
 
-- `Git/Github`: 研究室内共有の作業ノート。ゼミで勉強した内容やコードを保存[^2]する場所です。
+- `Git/Github`: 研究室内共有の作業ノート。ゼミで勉強した内容やコードを保存[^4]する場所です。
 
-[^2]:いずれ説明しますが、アップしていいものとダメなものがあります。Github Educationの特典を受けているので、Github Copilot Chatなども併用していく予定です
+[^4]:いずれ説明しますが、アップしていいものとダメなものがあります。Github Educationの特典を受けているので、Github Copilot Chatなども併用していく予定です
 
 - `shinyapps.io`: Rで作ったアプリを公開するためのサービス。研究室内で作成したアプリを外部に公開する際に使用します。
 
 > [!IMPORTANT]
+> AIの学習に使われないための設定を忘れないようにしましょう。<br>
 > GitHub Copilotを使用する場合は、
 > [GitHub CopilotのAIプライバシー](https://github.com/settings/copilot/features) -> Privacy -> Allow GitHub to use my data for AI model training を、
-> `Disabled`に設定してください。
+> `Disabled`に設定してください。<br>
 > Antigravityでも、
 > Antigravity -> 基本設定 -> Antigravity Settings -> Account -> Enable Telemetry
 > を、できないように(左に)しておきましょう。
 
 ---
 
-## 🔒 各年度プライベートリポジトリとの使い分けについて
+# 🔒 各年度プライベートリポジトリとの使い分けについて
 
 > [!IMPORTANT]
-> このリポジトリとは違い、`Labo_2026students**`はprivateリポジトリで、ゼミ生の成果物や非公開の資料を指導しながら管理するためのものです。
+> このリポジトリとは違い、`Labo_20**students_**`はprivateリポジトリで、ゼミ生の成果物や非公開の資料を指導しながら管理するためのものです。
 
-いきなり外部に公表するのに抵抗があると思うので、まずは`Labo_2026students`で`commit`、`push`、`pull`などの経験を積み、内容が安定してきた段階で`Labo_public`に公表する運用を考えています。
+いきなり外部に公表するのに抵抗があると思うので、まずは`Labo_20**students_**`で`commit`、`push`、`pull`などの経験を積み、一通り様々な経験をした段階で`Labo_public`に公表する運用を考えています。
 
 > [!CAUTION]
 > 絶対にやってはいけないこと：
-> HTMLファイル内や、Publicリポジトリ内のコードに、サーバーのパスワードやAPIキーを直接書き込むことは避けてください。
+> HTMLファイル内や、Publicリポジトリ内のコードに、サーバーの`パスワード`や`APIキー`を直接書き込むことは避けてください。
 > これらは公開された瞬間に悪用されるリスクがあります。
 
 ---
 
-## 📁 ディレクトリ構造
+# 📁 ディレクトリ構造(予定)
 
 ```
 Labo_public/
