@@ -12,7 +12,7 @@
   <img src="https://img.shields.io/badge/Language-R-276DC3?style=flat-square&logo=r&logoColor=white" alt="R">
 </p>
 
-同志社女子大学生活科学部食物栄養科学科[臨床病態学研究室](https://daisukegaotian.github.io/labo_settings)のGithubリポジトリです <br>
+同志社女子大学 生活科学部 食物栄養科学科 [臨床病態学研究室](https://daisukegaotian.github.io/labo_settings)<br>のGithubリポジトリです <br>
 本リポジトリは、原則として一般公開されています。
 
 - 各学生向けの教育用資料は、[別HP](https://daisukegaotian.github.io/2026_Labo_semi/education.html)等に公開しています。
@@ -105,9 +105,7 @@ Labo_public/
 ├── README.md                     # このファイル（リポジトリ概要・教育方針）
 ├── .gitignore
 │
-├── docs/                         # ゼミ運営の中心となる公開文書
-│   ├── curriculum.md             # カリキュラム方針・学習ロードマップ(予定)
-│   └── tools.md                  # 使用ツール一覧と導入ガイド(予定)
+├── docs/                         # 公開文書等
 │
 ├── materials/                    # 学年・年度ごとの配布資料（毎年更新予定）
 │   ├── README.md
@@ -115,7 +113,7 @@ Labo_public/
 │
 ├── templates/                    # Rmd/Quarto テンプレート（再利用可能）
 │
-└── data/                         # 公開可能なサンプルデータ
+└── data/                         # 公開可能なサンプルデータ等
 
 ```
 > [!NOTE]
