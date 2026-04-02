@@ -34,7 +34,7 @@
 
 ---
 
-データ自体は`Labo_2026students/materials/2026/sample_data.xlsx`に置いてあります。<br>
+データ自体は`Labo_20**students/materials/2026/sample_data.xlsx`に置いてあります。<br>
 
 使用するリンク：<br>
 [R(win)](https://cran.rstudio.com/bin/windows/base/)と[R(mac)](https://cran.r-project.org/bin/macosx/)で場所が違う <br>
