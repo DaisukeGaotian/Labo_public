@@ -87,7 +87,7 @@ shinyApp(ui = ui, server = server)
 
 ---
 
-> [!TIPS]
+> [!TIP]
 > **MISSION DEBRIEFING**
 > 
 > 今回のQUESTのレベルでも、病院等のローカルな計算作業を自動化する事はできるようになるだろう。
